@@ -6,6 +6,16 @@ echo -e "  | |  ___) /  \| |_| | | "
 echo -e "  |_| |____/_/\_\____/___|"
 echo -e "Yet Simple XFCE Desktop Installer — for Termux users\n - made by veira -\n"
 
+while [[ 1 ]]; do
+    read -p "Are you sure you want to install this? (y/n) " choice
+    if [[ $choice == "y" ]]; then
+        break
+    fi
+    if [[ $choice == "n" ]]; then
+        exit
+    fi
+done
+
 echo -e "\n[YSXDI] Removing user folders..."
 rmdir ~/.local
 rmdir ~/.config

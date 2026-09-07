@@ -3,6 +3,6 @@ YSXDI (Yet Simple XFCE Desktop Installer) is an semi-automated bash script that 
 
 # Installing
 To run the install script, run this bash command:
-``cd $HOME && curl -o- "https://raw.githubusercontent.com/veira24922/ysxdi-termux/refs/heads/main/ysxdi-installer.sh" | bash``
+``cd $HOME && curl -o ysxdi-installer.sh https://raw.githubusercontent.com/veira24922/ysxdi-termux/refs/heads/main/ysxdi-installer.sh && bash ysxdi-installer.sh``
 
 The script will ask if you would confirm this installation, then proceed.

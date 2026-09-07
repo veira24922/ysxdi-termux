@@ -53,4 +53,4 @@ pkg install librewolf libreoffice micro -y
 
 echo -e "[YSXDI] Installing xfce-start.sh"
 curl -C - -o "$HOME/xfce-start.sh" "https://raw.githubusercontent.com/veira24922/ysxdi-termux/refs/heads/main/xfce-start.sh"
-echo -e "\nDone installing the desktop! To start XFCE, run `bash ~/xfce-start.sh`, then open Termux:X11 onto your device to see the GUI."
+echo -e "\nDone installing the desktop! To start XFCE, run 'bash ~/xfce-start.sh', then open Termux:X11 onto your device to see the GUI."

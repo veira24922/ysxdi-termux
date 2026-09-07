@@ -5,4 +5,7 @@ YSXDI (Yet Simple XFCE Desktop Installer) is an semi-automated bash script that 
 To run the install script, use this bash command:
 ``curl -o ysxdi-installer.sh https://raw.githubusercontent.com/veira24922/ysxdi-termux/refs/heads/main/ysxdi-installer.sh && bash ysxdi-installer.sh``
 
-The script will ask if you would confirm this installation, then proceed.
+The script will ask if you would confirm this installation, then proceed. After the installation, XFCE4 will run automatically. To stop, press Ctrl+C *(note: I couldn't find a workaround to fix this)*.
+
+# Running
+To run XFCE manually, use this bash command: ``bash ~/xfce-start.sh``. This will start the desktop on X11.

@@ -15,7 +15,7 @@ To run XFCE manually, use this bash command:
 For Adreno users, they can manually install Freedreno/Turnip by running this command:
 ``pkg install tur-repo -y && pkg install mesa-vulkan-icd-freedreno vulkan-tools -y``
 
-Once then, the user need to configure the ˋˋ˜/.bashrcˋˋ file with these exports:
+Once then, the user need to configure the ``˜/.bashrc`` file with these exports:
 ```bash
 export GALLIUM_DRIVER=zink
 export MESA_LOADER_DRIVER_OVERRIDE=zink

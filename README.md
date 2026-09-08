@@ -11,6 +11,8 @@ The script will ask if you would confirm this installation, then proceed.
 To run XFCE manually, use this bash command:
 ``bash ~/xfce-start.sh``
 
+This will run the XFCE desktop in X11 server (with legacy drawing for Turnip support).
+
 # Installing Turnip
 For Adreno users, they can manually install Freedreno/Turnip by running this command:
 ``pkg install tur-repo -y && pkg install mesa-vulkan-icd-freedreno vulkan-tools -y``
@@ -23,4 +25,3 @@ export TU_DEBUG=sysmem
 ```
 
 *Restarting Termux is recommended for the changes to apply in order*
- filThis will start the desktop on X11.

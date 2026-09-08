@@ -1,6 +1,3 @@
 #!/bin/bash
-export DISPLAY=:0
-termux-x11 :0 &
-sleep 5
 clear
-startxfce4 &
+termux-x11 :1 -legacy-drawing -xstartup "dbus-launch --exit-with-session xfce4-session"
